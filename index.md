@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Yeah的Blog
+title: Hs_Yeah's Blog
 ---
 
 ##最新文章

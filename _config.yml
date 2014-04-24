@@ -9,7 +9,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Yeah的Blog
+title : Hs_Yeah's Blog
 tagline: 小叶子是大笨蛋
 author :
   name : Yeah
@@ -83,7 +83,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : thisishsyeah
+      short_name : HsYeahsBlog
     livefyre :
       site_id : 123
     intensedebate :
