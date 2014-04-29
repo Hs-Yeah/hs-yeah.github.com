@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jekyll 花括号百分号转义输出
+categories : [Jekyll]
 tag: [Jekyll]
 ---
 

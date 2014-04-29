@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Jekyll 提示 Liquid Exception：highlight tag was never clsed 的解决办法
+categories : [Jekyll]
 tag: [Jekyll, Pygments, Highlight]
 ---
 
