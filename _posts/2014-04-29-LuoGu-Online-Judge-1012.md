@@ -2,7 +2,7 @@
 layout: post
 title: ACM题目：连接若干整数以组成最大整数
 categories : [ACM]
-tag: [ACM, ICPC, 洛谷]
+tag: [ACM, ICPC, 洛谷Online Judge]
 ---
 
 #题目
