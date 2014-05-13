@@ -17,24 +17,26 @@ tag: [ACM, ICPC, USACO]
 	Given a group of friends, no one of whom has a name longer than 14 characters, the money each person in the group spends on gifts, and a (sub)list of friends to whom each person gives gifts, determine how much more (or less) each person in the group gives than they receive.
 
 ####`Input`
-<pre><table>
-    <tbody>
-        <tr>
-            <td>Line 1: </td>
-            <td>The single integer, NP</td>
-        </tr>
-        <tr>
-            <td>Lines 2..NP+1: </td>
-            <td>Each line contains the name of a group member</td>
-        </tr>
-        <tr>
-        	<td>Lines NP+2..end: </td>
-        	<td>The first line in the group tells the person's name who will be giving gifts.
+<pre>
+	<table border="1">
+	    <tbody>
+	        <tr>
+	            <td align="middle" style="width:131px">Line 1:</td>
+	            <td>The single integer, NP</td>
+	        </tr>
+	        <tr>
+	            <td align="middle">Lines 2..NP+1: </td>
+	            <td>Each line contains the name of a group member</td>
+	        </tr>
+	        <tr>
+	        	<td align="middle">Lines NP+2..end: </td>
+	        	<td>The first line in the group tells the person's name who will be giving gifts.
 The second line in the group contains two numbers: The initial amount of money (in the range 0..2000) to be divided up into gifts by the giver and then the number of people to whom the giver will give gifts, NGi (0 ≤ NGi ≤ NP-1).
 If NGi is nonzero, each of the next NGi lines lists the the name of a recipient of a gift.</td>
-        </tr>
-    </tbody>
-</table></pre>
+	        </tr>
+	    </tbody>
+	</table>
+</pre>
 
 ####`Output`
 	The output is NP lines, each with the name of a person followed by a single blank followed by the net gain or loss (final_money_value - initial_money_value) for that person. The names should be printed in the same order they appear on line 2 of the input.
