@@ -8,8 +8,7 @@ tags: [OS X, Bash, .bash_profile]
 晚上闲得无（dàn）聊（téng），折腾了一下 OS X 终端所用的Bash的配置   
   
 结果如下：  
-![](/images/OS X Bash Configuration - Screenshot.png)  
-  
+![](/assets/images/posts/OS X Bash Configuration - Screenshot.png)  
 所用的主题是 [Pro Tango](https://www.dropbox.com/s/tirgxm3id9ykq2i/Pro%20Tango.terminal)，来自 [V2EX](http://www.v2ex.com/t/91336) 
   
 而终端提示符的修改则是在 `~/.bsh_profile` 里面加入下面这行语句：
