@@ -3,7 +3,7 @@ layout: default
 title: Hs_Yeah's Blog
 ---
 
-##最新文章
+## 最新文章
 
 <ul class="最新文章">
   {% for post in site.posts %}
