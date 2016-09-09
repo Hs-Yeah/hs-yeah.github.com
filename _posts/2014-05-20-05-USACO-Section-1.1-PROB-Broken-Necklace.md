@@ -1,13 +1,13 @@
 ---
 layout: post
-title: ACM题目：Broken Necklace
+title: ACM 题目：Broken Necklace
 categories : [ACM]
 tag: [ACM, ICPC, USACO]
 ---
 
-#题目
+# 题目
 
-####`Problem Description`
+#### `Problem Description`
 	You have a necklace of N red, white, or blue beads (3<=N<=350) some of which are red, others blue, and others white, arranged at random. Here are two examples for n=29:
 
                 1 2                               1 2
@@ -37,29 +37,29 @@ tag: [ACM, ICPC, USACO]
 
 	Determine the point where the necklace should be broken so that the most number of beads can be collected.
 
-####`Example`
+#### `Example`
 	For example, for the necklace in Figure A, 8 beads can be collected, with the breaking point either between bead 9 and bead 10 or else between bead 24 and bead 25.
 
 	In some necklaces, white beads had been included as shown in Figure B above. When collecting beads, a white bead that is encountered may be treated as either red or blue and then painted with the desired color. The string that represents this configuration can include any of the three symbols r, b and w.
 
 	Write a program to determine the largest number of beads that can be collected from a supplied necklace.
 	
-####`Input`
+#### `Input`
 	Line 1:	 N, the number of beads
 	Line 2:	 a string of N characters, each of which is r, b, or w
 
 
-####`Output`
+#### `Output`
 	A single line containing the maximum of number of beads that can be collected from the supplied necklace.
 
-####`Sample Input`
+#### `Sample Input`
 	29
 	wwwbbrwrbrbrrbrbrwrwwrbwrwrrb
 
-####`Sample Output`
+#### `Sample Output`
 	11
 	
-####`Output Explanation`
+#### `Output Explanation`
 	Consider two copies of the beads (kind of like being able to runaround the ends). The string of 11 is marked.
                 Two necklace copies joined here
                                  v
@@ -69,11 +69,14 @@ tag: [ACM, ICPC, USACO]
                            rrrrr#bbbbbb  
                            5 x r  6 x b  <-- 11 total
 
-#解题思路
+# 解题思路
 	笨方法，按照题目的提示，将Necklace复制一遍之后，从头到尾在每个空隙之间断开，统计断开之后左边跟右边Necklace的Maximum of Number of Beads，左边的就从字符串后面开始扫过去，右边的就从前面开始扫过去。
 	需要注意的是，如果Necklace全是'w'，则可能统计方法不适用（我写的代码就不适用……），还有就是需要特别处理断点两侧是'w'的情况。
 
-#解题代码
+# 解题代码
+
+<!--lint disable-->
+
 {% highlight C++ %}
 //
 //  main.cpp
@@ -192,4 +195,6 @@ int main() {
 }
 {% endhighlight %}
 
-######`题目链接`：[USACO Section 1.1 PROB Broken Necklace](http://cerberus.delos.com:790/usacoprob2?a=AoVKOjQ1mC6&S=beads)
+<!--lint enable-->
+
+###### `题目链接`：[USACO Section 1.1 PROB Broken Necklace](http://cerberus.delos.com:790/usacoprob2?a=AoVKOjQ1mC6&S=beads)

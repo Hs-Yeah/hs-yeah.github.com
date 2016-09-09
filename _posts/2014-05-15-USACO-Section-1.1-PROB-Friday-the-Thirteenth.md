@@ -1,13 +1,13 @@
 ---
 layout: post
-title: ACM题目：Friday the Thirteenth
+title: ACM 题目：Friday the Thirteenth
 categories : [ACM]
 tag: [ACM, ICPC, USACO]
 ---
 
-#题目
+# 题目
 
-####`Problem Description`
+#### `Problem Description`
 	Is Friday the 13th really an unusual event?
 
 	That is, does the 13th of the month land on a Friday less often than on any other day of the week? To answer this question, write a program that will compute the frequency that the 13th of each month lands on Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, and Saturday over a given period of N years. The time period to test will be from January 1, 1900 to December 31, 1900+N-1 for a given number of years, N. N is positive and will not exceed 400.
@@ -24,22 +24,25 @@ tag: [ACM, ICPC, USACO]
 	
 	Don't just precompute the answers, either, please.
 
-####`Input`
+#### `Input`
 	One line with the integer N.
 
-####`Output`
+#### `Output`
 	Seven space separated integers on one line. These integers represent the number of times the 13th falls on Saturday, Sunday, Monday, Tuesday, ..., Friday.
 
-####`Sample Input`
+#### `Sample Input`
 	20
 
-####`Sample Output`
+#### `Sample Output`
 	36 33 34 33 35 35 34
 
-#解题思路
+# 解题思路
 	每日一水题，终有一日成大犇~（大误
 
-#解题代码
+# 解题代码
+
+<!--lint disable-->
+
 {% highlight C++ %}
 //
 //  main.cpp
@@ -162,5 +165,6 @@ int main() {
 }
 {% endhighlight %}
 
+<!--lint enable-->
 
-######`题目链接`：[USACO Section 1.1 PROB Friday the Thirteenth](http://cerberus.delos.com:790/usacoprob2?a=xW1PDjhmReW&S=friday)
+###### `题目链接`：[USACO Section 1.1 PROB Friday the Thirteenth](http://cerberus.delos.com:790/usacoprob2?a=xW1PDjhmReW&S=friday)

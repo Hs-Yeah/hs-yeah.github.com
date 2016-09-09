@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "OS X自带Bash装修工程"
+title: "OS X 自带 Bash 装修工程"
 categories : [OS X]
 tags: [OS X, Bash, .bash_profile]
 ---
 
-晚上闲得无（dàn）聊（téng），折腾了一下 OS X 终端所用的Bash的配置   
+晚上闲得无（dàn）聊（téng），折腾了一下 OS X 终端所用的 Bash 的配置   
   
 结果如下：  
 ![](/assets/images/posts/OS X Bash Configuration - Screenshot.png)  
@@ -17,4 +17,4 @@ tags: [OS X, Bash, .bash_profile]
 	
 上面这条语句里面调用了 git，所以需要注意：  
 如果使用过 Xcode，则 git 已安装；  
-如果没有安装 Xcode，请从 Mac App Store 下载 Xcode 并在偏好设置安装 Command Line Tools
+如果没有安装 Xcode，可以从 Mac App Store 下载 Xcode 并在偏好设置安装 Command Line Tools

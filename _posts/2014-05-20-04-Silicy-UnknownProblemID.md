@@ -1,27 +1,27 @@
 ---
 layout: post
-title: ACM题目：分数
+title: ACM 题目：分数
 categories : [ACM]
 tag: [ACM, ICPC, Sicily Online Judge]
 ---
 
-#题目
+# 题目
 
-####`Problem Description`
+#### `Problem Description`
 	In Sicily Online Judge System, there is a special user rank list. Every user gets a score for every problem he solved, and the fewer people have solved this problem, the higher score he can get. The following table shows how many scores you can get:
 	Score   10    8     6     4     2     1
 	Solved 1-10 11-30 31-50 51-75 76-100 >100
 	Your job is to calculate the total score for a given user.
 
-####`Input`
+#### `Input`
 	The first line contains an integer np(1<=np<300) which is the number of problems in Online Judge. The second line contains np integers representing the number of users who have solved this problem from problem 1000 to problem 1000+np-1.
 	The third line contains an integer t(t<=10), which is the number of test cases.
 	Each test case begins with an integer n, which is the number of problems the user has solved. Then it is followed by n distinct integers which are the problem ids. Problem id is labeled from 1000.
 
-####`Output`
+#### `Output`
 	for each test case, print the total score he can get on a single line.
 
-####`Sample Input`
+#### `Sample Input`
 	10
 	100 10 11 3 45 7 34 200 70 1
 	4
@@ -30,16 +30,19 @@ tag: [ACM, ICPC, Sicily Online Judge]
 	0
 	3 1000 1007 1008
 
-####`Sample Output`
+#### `Sample Output`
 	12
 	18
 	0
 	7
 
-#解题思路
+# 解题思路
 	这个直接按题目说的做就行了╮(￣▽￣")╭
 
-#解题代码
+# 解题代码
+
+<!--lint disable-->
+
 {% highlight C++ %}
 //
 //  main.cpp
@@ -112,5 +115,6 @@ int main()
 }
 {% endhighlight %}
 
+<!--lint enable-->
 
-######`题目链接`：[]()暂无
+###### `题目链接`：[]()暂无
