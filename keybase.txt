@@ -1,71 +1,80 @@
+==================================================================
+https://keybase.io/hs_yeah
 --------------------------------------------------------------------
 
 I hereby claim:
 
   * I am an admin of https://hs-yeah.github.io
   * I am hs_yeah (https://keybase.io/hs_yeah) on keybase.
-  * I have a public key with fingerprint E90B 2F7A 7F4B E166 8680  D89B FD7F 6C66 5FCA 5811
+  * I have a public key with fingerprint B734 5003 DD67 0021 0AAB  3EA4 4BCE DE61 A8DA 71C0
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "client": {
-            "name": "keybase.io node.js client",
-            "version": "0.8.25"
-        },
-        "key": {
-            "eldest_kid": "0101db685b120bcf80f9fc0e9cfb440562a38033d348e10ab3b205a1ece6464cc0b80a",
-            "fingerprint": "e90b2f7a7f4be1668680d89bfd7f6c665fca5811",
-            "host": "keybase.io",
-            "key_id": "fd7f6c665fca5811",
-            "kid": "0101db685b120bcf80f9fc0e9cfb440562a38033d348e10ab3b205a1ece6464cc0b80a",
-            "uid": "0a612ced87cfb38aebfea6e8e85a4719",
-            "username": "hs_yeah"
-        },
-        "service": {
-            "hostname": "hs-yeah.github.io",
-            "protocol": "https:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "0101b41853e298f6269f819220bb3661037324bdfc5bd44cd708d1bda54debfeb4750a",
+      "fingerprint": "b7345003dd6700210aab3ea44bcede61a8da71c0",
+      "host": "keybase.io",
+      "key_id": "4bcede61a8da71c0",
+      "kid": "0101b41853e298f6269f819220bb3661037324bdfc5bd44cd708d1bda54debfeb4750a",
+      "uid": "0a612ced87cfb38aebfea6e8e85a4719",
+      "username": "hs_yeah"
     },
-    "ctime": 1457838910,
-    "expire_in": 157680000,
-    "prev": "97146c498672f23b15c201c7b08c9803758f7be4cba0b80da6642830e0a99c56",
-    "seqno": 21,
-    "tag": "signature"
+    "merkle_root": {
+      "ctime": 1530504181,
+      "hash_meta": "e684ea6a36df11d406a08304c04ab47cd4da3e2b613e7ce8d5dc9504d20a02f4",
+      "seqno": 3184905
+    },
+    "revoke": {
+      "sig_ids": [
+        "6d63ff70c9dba7d5ddaae2063d372a26248e49fe026a6a2ed8bdc4f9599d77840f"
+      ]
+    },
+    "service": {
+      "hostname": "hs-yeah.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1530504247,
+  "expire_in": 157680000,
+  "prev": "406acda9318e32a07ac87e9cd640c0721d4a20e26efd52433b01dff8f8435ba8",
+  "seqno": 54,
+  "tag": "signature"
 }
 
 which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: GnuPG/MacGPG2 v2.0
-Comment: GPGTools - https://gpgtools.org
 
-owGtkn9QFGUYx4ET6kDsEIUkaWQHKOw6d/f2JyA1BmokhARGDM3Nvrvvwt6du+fd
-gV0XlVgTv4qKMRgCGWqKIHHygpFmtKxJmAKZ0CkTsRELByakYfgRJ0LtKtU005+9
-f73zvp/n+3yf7/u+Ga4LCA1cfskuWr4tiAgcmAQB+365nOZFgCJ4kGQvwtslKLu1
-nczth0gyYoMewLmgSVK2yIoATVbXllXGiJRBp0tSZJVCTYwJJ5Fyo8Zr1dAuQJfb
-YpME7RZDMQFQDAkwHAW8yKAiK/IoZHkREARKUjhnZlCzWTATDMRQDpgBjpIcBnlI
-ERTB8yhgUE5tKEpyMXQ6nJJmEYEsCnCR5miRABCjKIZiUIFhgSjQIsVTFCnyHMlg
-mFpYorjc/xoGue3Uctvef/D/s+/SO3IcheE8FBharTczHAQi5CjIQIbkCBpjNdAF
-navBl7gsHsiVaJmqh2USD7VctUH+Bh7WAFOx5C4pBXdmcjgVt8Irdu3a7Xa4krVy
-t8eh8QchsKwqWYAkC2qWiLHln0fEVJR3S5o2RpA0Y2ZYDDUi8DmH5IQWSSNIWo1Y
-XVojWKZqsjRGUDzBMhSNi7gZYCSPoxhPA5ThWTUammREGkCCB5yWhcBRFIEzZhSi
-HMvyJIVowx2QFSQZx1SjXLGq6ZKKZc5d6oRIeVXQ5jUBgaEBIcFB2jcNCNUb/vq7
-4PQ9K0n9riNvbLcDIbf53Z2T1zwguuq+1PSK+fGW+MIxrNsYEjPcgI6zZ2eo7td6
-p71nwa1B5e13tjP2Hb6w5UN1GSFRdcSlo4Tno7GIucjW8QFrf3rMPN10KjbaPzV5
-ZVN+RefNB6qt3DnH8db21szxhcHQa4apRGFmCplrrQrTjwVn97y40mvrISNKPXHx
-E/bhxJW0cyuVqCMvUm4qqD22+ER01s9t739XUbt7qOaz1KVK/8jyTel0ZdyN6fqh
-+WzdxrhlW1vO0nRDBQjSK4uL65s371nittlS+op2mWszx059vGE0/MgzJ0+EX+0C
-9y523ghvuWtDTd222eqHzphGfqze93IjltIxeCbe8OjarvTUV3S5OaagXsu6r8fx
-hcxP0vyGrQZ93t0+2effFPV5RJjxcKPdkFGZZ7r+1Ye4L3KjdW/h6IW2/D1f5Fr2
-n4hs1/dFKdaYRF/YoOGHGY6aXPdp6686x+xjK5czEjyPNO2Irf+t4cndDz7uTbI2
-5Uv3Ewd1f1xN6c76cv1CzoG3gpP9vuwa/84RX+egt34Yb1hbRmETa54e2FWecXgm
-oaWs6HV6dGvp8wW3YiPaJzqOVg0Vzp2M1/Ude3avTXe+Z+niNxb/q35v0vJPv88W
-XUhIHT0+Y7R3dDn83zdevJ713qEPRsOeuiQnNF8hS+o5/WJ8f07/C+f/BA==
-=yah0
+owGtk3tQFVUcxy8GE8LQgCmK5QSLjxKQs7tnXxSN5CvTUXwwmYS3s3vO3rvcy72X
+3eUCXlEzG2SS9K9EUdTxgZo66tioM4QMJImvEq3USKPyRQ8mG0dQy85q1jTTn+0/
+O3v2+/v+vr/POWd1whOuuKhLs/dasd6Ot6NO3lRdhcrWlyKMGsSVTE6E8ZGHL+LH
+xLLdPgMzOQxgAatCVhZ4wimyLnKiosuswnFAVXlRZAEv8RxUsa4JKoZQwxKQMati
+JEBMVJ2oUBIAYjIZ3Qh4iBkyjYBNbVWJhwIAPMaiBADHAoRUniAIVY1gIrJIxkhi
+NUALvUHLqaDhVGSRcUaQrtEP98N4/6H/n3OXPbJDIsvRVrKk6SovI0eCRCITWUBQ
+YhVHaBEzgEoIVXstdyVBXqYqkykhps9P3GYwaDtsNdtwFKzAAwHQeCydD1ledwmx
+ES0kogypL+JFrLMshkBEQOYB1ABENJGGIUZ0IFVkeSJpRMYC1hRqhDmAAKdDGsMi
+pYEgk8OzMlSAQBOYJBz0Eae5ZXgoNYvJKWRELPJ6S0SXgKZgFUnUCCNEOCDymJc4
+xIkclAlUdAI4kQbi6Ogq1qCuCIqCJUmGQGeKqpx2ZtjQHto7G/U3gCwHwDiPYXvL
+1Ed7FjKDdlAL+p3fth2ychw8dmXI0ZcT1f2Xk1s1ApieFVoRJqZlBAMUF1X+mxwH
+pUyGVIQMk7gNRyFIogzo4/QhYedkUHYaRgoFQXgOAQlpskQUDYsQaEDiKF3EAcKJ
+RMcCB3leBSzWdVmXIS+oSP4HpQBpTuShnhRgANllJmGq4moG8NGuqDjXiOS06P6P
+bgcuimxF8k93yh7fr5gBzuVyxQ1MfLzy4txE14HXOyfFPj3zh886V2259+G5bxb6
+O13Dq0fvzB474Wyu+94FnzK/LS9lzobRWxb8diP62sBDHUZPJ14yUjxTdH9dRumJ
+lNT4zMsF52Y8aJ3Xvvu6r2NS9PtjIg/af43dnrb5VO7nbeGlvd6WqU+NODHlaMnk
+5v41r23r9hX15+UVrryY/fGivvrzniuj1+5urBVrT+bW5FfVj9pazjcm5N1OWLbY
+H993adyp5mkNU1Laeo++eSW/tfva+qhFe15Ycvh+zJrpz8/c33D38qs92mKmvWtg
+ZbjuiwGvzFpQmlHhqo9PqUsKXNr0bt3qFXGh3Oq9tZt2tEROH1wn9Co67rCzhvbk
+DI6KaWiddmzTzvrrE8c88+TCDUmovOtewdnwopUV386Y11Tj2TL967HrD+afls7O
+bxxip/++dvWg+GLPyOzSxeMLTkYt/2ro90v2bEyd8wn/XW5q3dTpSdeSkmOVhqrw
+G79krQxZy48n420k/Y/m4/HlaXd3HU/fOF7Y2Tx31r5I4ZGYfT0X2vm+0KH+W/6r
++7uH7WtL7B2+qyu99XzxzclffsBuvl1s7l5R3V3x1tImLzOkqb0oI/nYjPqZXYPk
+0vM75id6H7Svaius1c2rzx4be+HMsFEFN26eGfxy34EWz3u5xYO6tte8c2f5HTst
+62fhx+ea+obu1VOOLFhWFvl0q3f2BH92Z3HC2jEVh2ubMm4lpP4J
+=JRup
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
